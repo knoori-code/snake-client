@@ -18,9 +18,9 @@ const connect = function () {
   conn.on("connect", () => {
     console.log("Successfully connected to game server!");
     conn.write("Name: BIG");
+    // conn.write("Move: up")
+  
   })
-  
-  
 
   return conn;
 
